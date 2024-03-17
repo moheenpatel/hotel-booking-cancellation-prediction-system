@@ -66,40 +66,7 @@ The data is originally from the article [**Hotel Booking Demand Datasets**](http
 - Seaborn
 - Plotly
 - SciKit-Learn
-
+<br>
 
 ## Project Implementation
 
-Importing necessary Python libraries for our Data Science project:
-```py
-import pandas as pd  # For data manipulation
-import numpy as np  # For numerical operations
-
-# libraries for data visualization
-import matplotlib.pyplot as plt
-import seaborn as sns
-
-# library for handling warnings
-import warnings  
-from warnings import filterwarnings
-filterwarnings("ignore")  # Ignore warnings
-```
-
-Read CSV file containing hotel bookings data
-```py
-# Read hotel bookings data
-df = pd.read_csv("Data/hotel_bookings.csv")  
-df.head() # Display first few rows
-```
-![1](https://github.com/moheenpatel/hotel-booking-cancellation-prediction-system/assets/72771390/eba93db2-337c-4a79-a6c9-88024f9c0ae2)
-
-### Data Cleaning
-```py
-df.shape  # Number of (rows, columns) in the DataFrame df
-```
-```
-(119390, 32)
-```
-```py
-df.isna()
-```
