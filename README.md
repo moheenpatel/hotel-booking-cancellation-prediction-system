@@ -7,7 +7,7 @@ Many of us have canceled a hotel booking at least once and have likewise experie
 The aim of this project is to develop a model that can accurately predict the likelihood of hotel room bookings being canceled. By analyzing historical data, the goal is to provide hoteliers with a tool that can identify bookings at risk of cancellation. This will enable them to implement proactive operational strategies to minimize resource wastage and financial losses. Ultimately, this project aims to improve customer satisfaction and operational efficiency in the hospitality industry.
 
 ## Information about the data source used in this project
-We have used below dataset for this project :
+I have used below dataset for this project :
 
 [**hotel_bookings.csv**](https://github.com/moheenpatel/hotel-booking-cancellation-prediction-system/blob/main/Data/hotel_bookings.csv)
 
@@ -51,4 +51,55 @@ The data is originally from the article [**Hotel Booking Demand Datasets**](http
 |total_of_special_requests      |Number of special requests made by the customer (e.g. twin bed or high floor)|
 |reservation_status             |Reservation last status, assuming one of three categories:<br>Canceled – booking was canceled by the customer;<br>Check-Out – customer has checked in but already departed;<br>No-Show – customer did not check-in and did inform the hotel of the reason why |
 |reservation_status_date        |Date at which the last status was set. This variable can be used in conjunction with the ReservationStatus to understand when was the booking canceled or when did the customer checked-out of the hotel|
+<br>
 
+## Tools, Technologies and Libraries used in this project
+1] Anaconda  
+2] Jupyter Notebook  
+3] Python  
+4] Google Sheets / Microsoft Excel  
+5] Python Libraries for Data Science used :  
+
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- Plotly
+- SciKit-Learn
+
+
+## Project Implementation
+
+Importing necessary Python libraries for our Data Science project:
+```py
+import pandas as pd  # For data manipulation
+import numpy as np  # For numerical operations
+
+# libraries for data visualization
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# library for handling warnings
+import warnings  
+from warnings import filterwarnings
+filterwarnings("ignore")  # Ignore warnings
+```
+
+Read CSV file containing hotel bookings data
+```py
+# Read hotel bookings data
+df = pd.read_csv("Data/hotel_bookings.csv")  
+df.head() # Display first few rows
+```
+![1](https://github.com/moheenpatel/hotel-booking-cancellation-prediction-system/assets/72771390/eba93db2-337c-4a79-a6c9-88024f9c0ae2)
+
+### Data Cleaning
+```py
+df.shape  # Number of (rows, columns) in the DataFrame df
+```
+```
+(119390, 32)
+```
+```py
+df.isna()
+```
