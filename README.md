@@ -69,4 +69,33 @@ The data is originally from the article [**Hotel Booking Demand Datasets**](http
 <br>
 
 ## Project Implementation
+Kindly open below provided Jupyter Notebook in order to see my project's implentation code where I performed multiple operations on the hotel_bookings.csv dataset in order to develop a model that can accurately predict the likelihood of hotel room bookings being canceled.
+### Operations Performed :
+- Importing necessary Data Science Python libraries for our Project
+- Data Cleaning
+- Data Analysis
+  - Analysis 1 - Where do the maximum guests come from ? (Spatial Analysis))
+  - Analysis 2 - How much do guests pay for a room per night?
+  - Analysis 3 - How does the price per night vary over the year?
+  - Analysis 4 - Which months are the most busiest months or in which months bookings are high in number?
+  - Analysis 5 - How long do guests stay at the hotels?
+  - Analysis 6 - Bookings by market segment
+  - Analysis 7 - How many bookings were cancelled?
+  - Analysis 8 - Which month have the highest number of Cancellations?
+- Selecting important numerical features(attributes) using Correlation-using-Correlation)
+- Refining numerical features
+- Refining categorical features
+- Feature Encoding
+- Preparing Data for Machine Learning
+- Feature Importance
+- Splitting the data and Builing the Model
+  - Implementing logistic regression
+  - Implementing different classification algorithms to decide which one is best
 
+
+## Result
+Based on the results obtained from the project implementation, it can be concluded that the **Random Forest model** outperforms other models in predicting hotel booking cancellations, achieving an impressive **accuracy rate of 92%**. This high accuracy suggests that the Random Forest model is a reliable tool for identifying bookings at risk of cancellation.
+
+Utilizing this model, hotels can implement proactive operational strategies to minimize resource wastage and financial losses associated with cancellations. By identifying potential cancellations in advance, hotels can optimize their booking management processes, allocate resources more efficiently, and enhance customer satisfaction by reducing the likelihood of overbooking.
+
+In conclusion, the Random Forest model stands out as an effective solution for predicting hotel booking cancellations, offering valuable insights that can help hotels improve their overall operational efficiency and customer experience.
