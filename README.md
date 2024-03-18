@@ -3,6 +3,17 @@
 ## Introduction
 Many of us have canceled a hotel booking at least once and have likewise experienced giving up because the preferred hotel was fully booked. Hotel booking cancellation and the inability to satisfy potential consumers are widespread and worrisome problems that increase hotel operation costs and affect customer satisfaction. Hotel efficiency suffers severely, particularly when reservations are canceled at the last minute, leading to an irreversible underutilization of hotel resources. Given that this impact on the hospitality industry can be extremely bad, predicting hotel booking cancellation appears to be the only solution to help establish suitable operational strategies to avoid being affected. In particular, hoteliers can benefit from the prediction on individual cancellation, rather than overall cancellation rates, to identify customers at the highest risk of canceling in advance, thereby avoiding huge losses when it is not considerably late.
 
+## Table of Content
+- [Aim](#aim)
+- [Information about the data source used in this project](#information-about-the-data-source-used-in-this-project)
+  - [Acknowledgement](#acknowledgement)
+  - [Data Dictionary](#data-dictionary)
+- [Tools, Technologies and Libraries used in this project](#tools-technologies-and-libraries-used-in-this-project)
+- [Project Implementation](#project-implementation)
+  - [Project Code](#project-code)
+  - [Implementation](#implementation)
+- [Result](#result)
+
 ## Aim
 The aim of this project is to develop a model that can accurately predict the likelihood of hotel room bookings being canceled. By analyzing historical data, the goal is to provide hoteliers with a tool that can identify bookings at risk of cancellation. This will enable them to implement proactive operational strategies to minimize resource wastage and financial losses. Ultimately, this project aims to improve customer satisfaction and operational efficiency in the hospitality industry.
 
@@ -69,28 +80,33 @@ The data is originally from the article [**Hotel Booking Demand Datasets**](http
 <br>
 
 ## Project Implementation
-Kindly open below provided Jupyter Notebook in order to see my project's implentation code where I performed multiple operations on the hotel_bookings.csv dataset in order to develop a model that can accurately predict the likelihood of hotel room bookings being canceled.
-### Operations Performed :
-- Importing necessary Data Science Python libraries for our Project
-- Data Cleaning
-- Data Analysis
-  - Analysis 1 - Where do the maximum guests come from ? (Spatial Analysis))
-  - Analysis 2 - How much do guests pay for a room per night?
-  - Analysis 3 - How does the price per night vary over the year?
-  - Analysis 4 - Which months are the most busiest months or in which months bookings are high in number?
-  - Analysis 5 - How long do guests stay at the hotels?
-  - Analysis 6 - Bookings by market segment
-  - Analysis 7 - How many bookings were cancelled?
-  - Analysis 8 - Which month have the highest number of Cancellations?
-- Selecting important numerical features(attributes) using Correlation-using-Correlation)
-- Refining numerical features
-- Refining categorical features
-- Feature Encoding
-- Preparing Data for Machine Learning
-- Feature Importance
-- Splitting the data and Builing the Model
-  - Implementing logistic regression
-  - Implementing different classification algorithms to decide which one is best
+
+### Project Code
+[ML_hotel_booking_Prediction.ipynb](https://nbviewer.org/github/moheenpatel/hotel-booking-cancellation-prediction-system/blob/b015c38d95790a550f47d55392b9654a39b8378c/ML_hotel_booking_Prediction.ipynb){:target="_blank"}
+
+### Implementation
+- [Importing necessary Data Science Python libraries for our Project](https://nbviewer.org/github/moheenpatel/hotel-booking-cancellation-prediction-system/blob/b015c38d95790a550f47d55392b9654a39b8378c/ML_hotel_booking_Prediction.ipynb#Importing-necessary-Data-Science-Python-libraries-for-our-Project)
+- [Data Cleaning](https://nbviewer.org/github/moheenpatel/hotel-booking-cancellation-prediction-system/blob/b015c38d95790a550f47d55392b9654a39b8378c/ML_hotel_booking_Prediction.ipynb#Data-Cleaning)
+- [Data Analysis](https://nbviewer.org/github/moheenpatel/hotel-booking-cancellation-prediction-system/blob/b015c38d95790a550f47d55392b9654a39b8378c/ML_hotel_booking_Prediction.ipynb#Data-Analysis)
+  - [Analysis 1 - Where do the maximum guests come from ? (Spatial Analysis))](https://nbviewer.org/github/moheenpatel/hotel-booking-cancellation-prediction-system/blob/b015c38d95790a550f47d55392b9654a39b8378c/ML_hotel_booking_Prediction.ipynb#Analysis-1%5D-Where-do-the-maximum-guests-come-from-?-(Spatial-Analysis))
+  - [Analysis 2 - How much do guests pay for a room per night?](https://nbviewer.org/github/moheenpatel/hotel-booking-cancellation-prediction-system/blob/b015c38d95790a550f47d55392b9654a39b8378c/ML_hotel_booking_Prediction.ipynb#Analysis-2%5D-How-much-do-guests-pay-for-a-room-per-night?)
+  - [Analysis 3 - How does the price per night vary over the year?](https://nbviewer.org/github/moheenpatel/hotel-booking-cancellation-prediction-system/blob/b015c38d95790a550f47d55392b9654a39b8378c/ML_hotel_booking_Prediction.ipynb#Analysis-3%5D-How-does-the-price-per-night-vary-over-the-year?)
+  - [Analysis 4 - Which months are the most busiest months or in which months bookings are high in number?](https://nbviewer.org/github/moheenpatel/hotel-booking-cancellation-prediction-system/blob/b015c38d95790a550f47d55392b9654a39b8378c/ML_hotel_booking_Prediction.ipynb#Analysis-4%5D-Which-months-are-the-most-busiest-months-or-in-which-months-bookings-are-high-in-number?)
+  - [Analysis 5 - How long do guests stay at the hotels?](https://nbviewer.org/github/moheenpatel/hotel-booking-cancellation-prediction-system/blob/b015c38d95790a550f47d55392b9654a39b8378c/ML_hotel_booking_Prediction.ipynb#Analysis-5%5D-How-long-do-guests-stay-at-the-hotels?)
+  - [Analysis 6 - Bookings by market segment](https://nbviewer.org/github/moheenpatel/hotel-booking-cancellation-prediction-system/blob/b015c38d95790a550f47d55392b9654a39b8378c/ML_hotel_booking_Prediction.ipynb#Analysis-6%5D-Bookings-by-market-segment)
+  - [Analysis 7 - How many bookings were cancelled?](https://nbviewer.org/github/moheenpatel/hotel-booking-cancellation-prediction-system/blob/b015c38d95790a550f47d55392b9654a39b8378c/ML_hotel_booking_Prediction.ipynb#Analysis-7%5D-How-many-bookings-were-cancelled?)
+  - [Analysis 8 - Which month have the highest number of Cancellations?](https://nbviewer.org/github/moheenpatel/hotel-booking-cancellation-prediction-system/blob/b015c38d95790a550f47d55392b9654a39b8378c/ML_hotel_booking_Prediction.ipynb#Analysis-8%5D-Which-month-have-the-highest-number-of-Cancellations?)
+- [Selecting important numerical features(attributes) using Correlation-using-Correlation)](https://nbviewer.org/github/moheenpatel/hotel-booking-cancellation-prediction-system/blob/b015c38d95790a550f47d55392b9654a39b8378c/ML_hotel_booking_Prediction.ipynb#Selecting-important-numerical-features(attributes)-using-Correlation)
+- [Refining numerical features](https://nbviewer.org/github/moheenpatel/hotel-booking-cancellation-prediction-system/blob/b015c38d95790a550f47d55392b9654a39b8378c/ML_hotel_booking_Prediction.ipynb#Refining-numerical-features)
+- [Refining categorical features](https://nbviewer.org/github/moheenpatel/hotel-booking-cancellation-prediction-system/blob/b015c38d95790a550f47d55392b9654a39b8378c/ML_hotel_booking_Prediction.ipynb#Refining-categorical-features)
+- [Feature Encoding](https://nbviewer.org/github/moheenpatel/hotel-booking-cancellation-prediction-system/blob/b015c38d95790a550f47d55392b9654a39b8378c/ML_hotel_booking_Prediction.ipynb#Feature-Encoding)
+- [Preparing Data for Machine Learning](https://nbviewer.org/github/moheenpatel/hotel-booking-cancellation-prediction-system/blob/b015c38d95790a550f47d55392b9654a39b8378c/ML_hotel_booking_Prediction.ipynb#Preparing-our-Data-for-Machine-Learning)
+  - [Handling the Outliers in the data](https://nbviewer.org/github/moheenpatel/hotel-booking-cancellation-prediction-system/blob/b015c38d95790a550f47d55392b9654a39b8378c/ML_hotel_booking_Prediction.ipynb#Handling-the-Outliers-in-the-data)
+- [Feature Importance](https://nbviewer.org/github/moheenpatel/hotel-booking-cancellation-prediction-system/blob/b015c38d95790a550f47d55392b9654a39b8378c/ML_hotel_booking_Prediction.ipynb#Feature-Importance)
+- [Splitting the data and Builing the Model](https://nbviewer.org/github/moheenpatel/hotel-booking-cancellation-prediction-system/blob/b015c38d95790a550f47d55392b9654a39b8378c/ML_hotel_booking_Prediction.ipynb#Splitting-the-data-and-Builing-the-Model)
+  - [Implementing logistic regression](https://nbviewer.org/github/moheenpatel/hotel-booking-cancellation-prediction-system/blob/b015c38d95790a550f47d55392b9654a39b8378c/ML_hotel_booking_Prediction.ipynb#Implementing-logistic-regression)
+  - [Implementing different classification algorithms to decide which one is best](https://nbviewer.org/github/moheenpatel/hotel-booking-cancellation-prediction-system/blob/b015c38d95790a550f47d55392b9654a39b8378c/ML_hotel_booking_Prediction.ipynb#Implementing-different-classification-algorithms-to-decide-which-one-is-best)
+- [Conclusion](https://nbviewer.org/github/moheenpatel/hotel-booking-cancellation-prediction-system/blob/b015c38d95790a550f47d55392b9654a39b8378c/ML_hotel_booking_Prediction.ipynb#As-per-above-results-we-can-conclude-that-Random-Forest-is-the-best-model-we-can-use-to-predict-the-Hotel-Booking-Cancellation-of-potential-customers-as-this-model-has-the-highest-accuracy-of-92%.)
 
 
 ## Result
