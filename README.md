@@ -82,7 +82,7 @@ The data is originally from the article [**Hotel Booking Demand Datasets**](http
 ## Project Implementation
 
 ### Project Code
-[ML_hotel_booking_Prediction.ipynb](https://nbviewer.org/github/moheenpatel/hotel-booking-cancellation-prediction-system/blob/b015c38d95790a550f47d55392b9654a39b8378c/ML_hotel_booking_Prediction.ipynb){:target="_blank"}
+[ML_hotel_booking_Prediction.ipynb](https://nbviewer.org/github/moheenpatel/hotel-booking-cancellation-prediction-system/blob/b015c38d95790a550f47d55392b9654a39b8378c/ML_hotel_booking_Prediction.ipynb)
 
 ### Implementation
 - [Importing necessary Data Science Python libraries for our Project](https://nbviewer.org/github/moheenpatel/hotel-booking-cancellation-prediction-system/blob/b015c38d95790a550f47d55392b9654a39b8378c/ML_hotel_booking_Prediction.ipynb#Importing-necessary-Data-Science-Python-libraries-for-our-Project)
