@@ -1,4 +1,4 @@
-# Hotel Booking Cancellation Prediction System
+# Hotel Booking Cancellation Prediction System using Machine Learning
 
 ## Introduction
 Many of us have canceled a hotel booking at least once and have likewise experienced giving up because the preferred hotel was fully booked. Hotel booking cancellation and the inability to satisfy potential consumers are widespread and worrisome problems that increase hotel operation costs and affect customer satisfaction. Hotel efficiency suffers severely, particularly when reservations are canceled at the last minute, leading to an irreversible underutilization of hotel resources. Given that this impact on the hospitality industry can be extremely bad, predicting hotel booking cancellation appears to be the only solution to help establish suitable operational strategies to avoid being affected. In particular, hoteliers can benefit from the prediction on individual cancellation, rather than overall cancellation rates, to identify customers at the highest risk of canceling in advance, thereby avoiding huge losses when it is not considerably late.
